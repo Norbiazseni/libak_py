@@ -1,0 +1,7 @@
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\bin\Debug\libak.exe.config
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\bin\Debug\libak.exe
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\bin\Debug\libak.pdb
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\obj\Debug\libak.csproj.AssemblyReference.cache
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\obj\Debug\libak.csproj.CoreCompileInputs.cache
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\obj\Debug\libak.exe
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libak\libak\obj\Debug\libak.pdb
