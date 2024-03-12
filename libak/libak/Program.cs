@@ -34,6 +34,23 @@ namespace libak
             return osszeg;
 
         }
+        static double Atlag(int[] t)
+        {
+            int osszeg = 0;
+            int db = 0;
+
+            for (int i = 0; i < t.Length; i++)
+            {
+                if (t[i] <= 3)
+                {
+                    db++;
+                    osszeg += t[i];
+                }
+            }
+
+            double atlag = (double)osszeg / db;
+            return atlag;
+        }
         static void Main(string[] args)
         {
             /*
@@ -51,12 +68,14 @@ namespace libak
             f. Hány libát tarthat meg a róka?
             g. Mekkora a legkisebb liba, amit a farkas elvesz a rókától?
 
-             * */ 
-             
-            int[] libak = {1, 5, 2, 3, 4};
+             * */
+
+            int[] libak = { 1, 5, 2, 3, 4 };
             Kiir(libak, "a libák súlyai");
             int osszes_kilo_liba = Osszegez(libak);
             Kiir_eredmenyek(osszes_kilo_liba);
+            double atlag = Atlag(libak);
+            Console.WriteLine($"A libák átlaga: {atlag}");
             Console.WriteLine("Nyomjad");
             Console.ReadKey();
         }
