@@ -52,6 +52,7 @@ namespace libak
             g. Mekkora a legkisebb liba, amit a farkas elvesz a rókától?
 
              * */ 
+             
             int[] libak = {1, 5, 2, 3, 4};
             Kiir(libak, "a libák súlyai");
             int osszes_kilo_liba = Osszegez(libak);
