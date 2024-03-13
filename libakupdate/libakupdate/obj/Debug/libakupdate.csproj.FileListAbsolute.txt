@@ -1,0 +1,2 @@
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libakupdate\libakupdate\obj\Debug\libakupdate.csproj.AssemblyReference.cache
+C:\Users\1tc-sipnor\Documents\GitHub\libak_py\libakupdate\libakupdate\obj\Debug\libakupdate.csproj.CoreCompileInputs.cache

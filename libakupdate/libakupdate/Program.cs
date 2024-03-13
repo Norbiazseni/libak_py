@@ -68,9 +68,9 @@ namespace libak
         {
             bool van = false;
             int i = 0;
-            while (i<t.Length && !(t[i] >= 3))
+            while (i < t.Length && !(t[i] >= 3))
             {
-                if (i<t.Length)
+                if (i < t.Length)
                 {
                     van = true;
                 }
@@ -114,7 +114,7 @@ namespace libak
             }
             //3.Output
             Kiir(libak, "a libák súlyai");
-            Kiir_eredmenyek(osszes_kilo_liba, rokanal_maradt_libak_atlaga,);
+            Kiir_eredmenyek(osszes_kilo_liba, rokanal_maradt_libak_atlaga,volt_legalabb_harom_kilos_liba_szoveg);
             Console.WriteLine("Nyomjad");
             Console.ReadKey();
         }
